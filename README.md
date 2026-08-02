@@ -66,7 +66,6 @@
 - I am particularly keen on collaborating on interdisciplinary research integrating **biomedical engineering**, **medical imaging**, **ultrasound**, and **AI and machine learning** in healthcare.
 -----------------------------------------------------------------------------------------
 **📫 How to reach me:**
-- **Email**: [soheilkooklan@gmail.com](mailto:soheilkooklan@gmail.com)
 - **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/soheilkooklan/)
 - **GitHub**: [GitHub Profile](https://github.com/soheilkooklan)
 - Feel free to reach out to discuss potential collaborations, research opportunities, or any exciting projects!
