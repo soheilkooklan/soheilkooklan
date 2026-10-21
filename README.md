@@ -8,6 +8,9 @@ Most of what I publish here is research software, and it is written around one q
 
 Each repository is archived on Zenodo and citable by DOI. All of it is research software, not a medical device, and none of it is validated for clinical use.
 
+**[SonoSK](https://github.com/sonosk/sonosk)** — Medical ultrasound simulation in Python, from the transducer to the B-mode image and to the thermal effect of a therapeutic exposure. Single elements and linear, phased, convex, matrix and line-focus arrays; continuous-wave fields from the Rayleigh integral and the angular spectrum method; pulse-echo simulation, beamforming and compounding on scatterer phantoms; the Pennes bioheat equation with CEM43 dose, lesion maps and the part of the target left untreated; and a Mason model for designing the piezoelectric element itself. Every solver is checked against a closed-form result in the test suite. Documentation at [sonosk.github.io](https://sonosk.github.io/).
+Python · NumPy · `pip install sonosk` · DOI [10.5281/zenodo.23517377](https://doi.org/10.5281/zenodo.23517377)
+
 **[Tumor-from-Ultrasound-Image](https://github.com/soheilkooklan/Tumor-from-Ultrasound-Image)** — Lesion segmentation, BI-RADS-aligned morphometry and uncertainty-gated reporting for B-mode breast ultrasound. Preprocessing built around ultrasound physics rather than generic denoising, five segmentation models including RDAU-Net with an ASPP bottleneck, automatic extraction of ACR BI-RADS descriptors from the predicted mask, and Monte Carlo dropout measured along the lesion boundary and converted into a reliability grade on each descriptor.
 Python · PyTorch · OpenCV · DOI [10.5281/zenodo.21826922](https://doi.org/10.5281/zenodo.21826922)
 
@@ -20,6 +23,7 @@ Python · NumPy · SciPy · DOI [10.5281/zenodo.21788945](https://doi.org/10.528
 ## What I work on
 
 - Therapeutic and diagnostic ultrasound, HIFU, image-guided intervention
+- Ultrasound simulation software: transducer design, imaging and thermal therapy models
 - Medical image segmentation and quantitative descriptors
 - qEEG and ECG biomarkers, uncertainty quantification and calibration in clinical machine learning
 - Biomedical instrumentation: fault diagnosis and repair down to board level, calibration and precision measurement
